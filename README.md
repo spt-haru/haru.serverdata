@@ -1,0 +1,2 @@
+# haru.serverdata
+Server logic.
