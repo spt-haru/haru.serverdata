@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>6.0</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="embedded/database/resp.client.customization.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.friend.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.friend.request.list.inbox.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.friend.request.list.outbox.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.game.config.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.game.profile.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.game.profile.select.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.game.start.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.game.version.validate.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.globals.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.handbook.builds.my.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.handbook.templates.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.hideout.areas.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.hideout.production.recipes.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.hideout.production.scavcase.recipes.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.hideout.qte.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.hideout.settings.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.items.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.languages.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.locale-en.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.locations.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.mail.dialog.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.match.group.current.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.menu.locale-en.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.notifier.channel.create.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.profile.status.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.quest.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.repeatalbeQuests.activityPeriods.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.server.list.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.settings.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.trading.api.traderSettings.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.trading.customization.storage.json" />
+    <EmbeddedResource Include="embedded/database/resp.client.weather.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Haru.Converters" HintPath="..\references\haru\Haru.Converters.dll" />
+    <Reference Include="Haru.Cryptography" HintPath="..\references\haru\Haru.Cryptography.dll" />
+    <Reference Include="Haru.Hashing" HintPath="..\references\haru\Haru.Hashing.dll" />
+    <Reference Include="Haru.Http" HintPath="..\references\haru\Haru.Http.dll" />
+    <Reference Include="Haru.IO" HintPath="..\references\haru\Haru.IO.dll" />
+    <Reference Include="Haru.Pools" HintPath="..\references\haru\Haru.Pools.dll" />
+    <Reference Include="Haru.Shared" HintPath="..\references\haru\Haru.Shared.dll" />
+    <Reference Include="Zlib.Managed" HintPath="..\references\haru\zlib.managed.dll" />
+  </ItemGroup>
+
+</Project>
